@@ -22,7 +22,7 @@ To analyze ball-by-ball IPL data and identify scoring patterns, player contribut
 ##  Tools Used
 Python (Pandas), SQL, Power BI
 
-## 📂 Files in Repository
+##  Files in Repository
 - `ipl_data_analysis.ipynb` → Data processing
 - `ipl_ball_by_ball_data.csv` → Dataset
 - `ipl_dashboard.pbix` → Power BI dashboard
