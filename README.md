@@ -1,17 +1,29 @@
-PROJECT: IPL Match Performance Dashboard
+# IPL Match Performance Dashboard
 
-PROBLEM:
-Analyze ball-by-ball IPL data to identify scoring patterns, player contributions, and key match phases influencing outcomes.
+![Dashboard Preview](dashboard_preview.png)
 
-APPROACH:
-Collected delivery-level IPL dataset and performed data preprocessing using Python (Pandas), including validation and structuring of match, over, and run-level data. Loaded the processed data into a SQL database to enable efficient querying. Connected Power BI to SQL and developed an interactive dashboard with KPIs, player analysis, over-wise trends, wicket distribution, and phase-based comparisons.
+##  Project Overview
+Analyzed ball-by-ball IPL data to understand scoring patterns, player performance, and match phase impact. Built an interactive Power BI dashboard for insights.
 
-KEY INSIGHTS:
+##  Problem
+To analyze ball-by-ball IPL data and identify scoring patterns, player contributions, and key match phases influencing outcomes.
 
-* Death overs (16–20) contribute the highest runs, highlighting aggressive end-phase scoring strategies.
-* SPD Smith emerged as the top performer with the highest total runs in the analyzed match.
-* Wickets are concentrated in middle overs (6–15), indicating a critical pressure phase where teams often lose momentum.
+##  Approach
+- Data preprocessing using Python (Pandas)
+- Stored structured data in SQL database
+- Connected Power BI to SQL
+- Built dashboard with KPIs and visual insights
 
-TOOLS USED:
+##  Key Insights
+- Majority of runs are scored in death overs (16–20)
+- Middle overs (6–15) show higher wicket frequency
+- Top batsman contributes significantly to total runs
+
+##  Tools Used
 Python (Pandas), SQL, Power BI
 
+## 📂 Files in Repository
+- `ipl_data_analysis.ipynb` → Data processing
+- `ipl_ball_by_ball_data.csv` → Dataset
+- `ipl_dashboard.pbix` → Power BI dashboard
+- `dashboard_preview.png` → Dashboard screenshot
